@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie Dealer d'art — L’art se vit, ici.</title>
+  <meta name="description"
+    content="Une galerie et un atelier d’artiste à Montmorillon. Jicé vous accueille pour découvrir ses œuvres et des expositions renouvelées.">
+  <link rel="canonical" href="./">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Galerie Dealer d'art — L’art se vit, ici.">
+  <meta property="og:description" content="Galerie d’art et atelier à Montmorillon, France.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Cormorant Garamond & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ArtGallery",
+    "name": "Galerie Dealer d'art",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "10 Grand Rue",
+      "postalCode": "86500",
+      "addressLocality": "Montmorillon",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.4262832,
+      "longitude": 0.8694401
+    },
+    "telephone": "+33 6 56 80 45 59",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Thursday", "Friday"],
+        "opens": "14:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Wednesday"],
+        "opens": "10:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "10:00",
+        "closes": "12:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "14:00",
+        "closes": "18:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.8,
+      "reviewCount": 8
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="#accueil" aria-label="Galerie Dealer d'art">
+        <span class="brand-mark">
+          <span class="brand-monogram">D.</span>
+          <span class="brand-ring" aria-hidden="true"></span>
+        </span>
+        <div class="brand-titles">
+          <span class="brand-name">Galerie Dealer d’art</span>
+          <span class="brand-sub" data-i18n="atelierSubtitle">Atelier Jicé · Montmorillon</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#accueil" data-i18n="navHome">Accueil</a>
+        <a href="#artiste" data-i18n="navArtist">L’artiste</a>
+        <a href="#expositions" data-i18n="navExhibitions">Expositions</a>
+        <a href="#oeuvres" data-i18n="navGallery">Galerie</a>
+        <a href="#visite" data-i18n="navVisit">Visite</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="header-tools">
+        <a class="header-status-pill" href="#visite" aria-label="Statut de la galerie">
+          <span class="status-dot-pulse" aria-hidden="true"></span>
+          <span class="status-pill-text" data-i18n="headerAtelierCity">Montmorillon · Atelier</span>
+        </a>
+        <div class="tool-controls">
+          <button class="icon-button" id="theme-toggle" type="button" aria-label="Activer le thème sombre">☾</button>
+          <button class="language-switch" id="language-switch" type="button" aria-label="Passer en anglais">EN</button>
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav"
+            data-i18n="menu">Menu</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Dropdown -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navigation mobile">
+      <div class="mobile-nav-inner">
+        <div class="mobile-nav-links">
+          <a href="#accueil"><span data-i18n="navHome">Accueil</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+          <a href="#artiste"><span data-i18n="navArtist">L’artiste</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+          <a href="#expositions"><span data-i18n="navExhibitions">Expositions</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+          <a href="#oeuvres"><span data-i18n="navGallery">Galerie</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+          <a href="#visite"><span data-i18n="navVisit">Visite</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+          <a href="#contact"><span data-i18n="navContact">Contact</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+        </div>
+        <div class="mobile-nav-meta">
+          <p>10 Grand Rue, 86500 Montmorillon</p>
+          <a href="tel:+33656804559">+33 6 56 80 45 59</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="contenu">
+    <!-- Hero Section -->
+    <section class="hero" id="accueil" aria-labelledby="hero-title">
+      <div class="hero-container container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span data-i18n="eyebrow">Un lieu vivant, à Montmorillon</span> <span>· 86500</span></p>
+          <h1 id="hero-title"><span>Galerie</span><br><em>Dealer</em> d’art</h1>
+          <p class="hero-tagline" data-i18n="tagline">L’art se vit, ici.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#visite">
+              <span data-i18n="visit">Venir à la galerie</span><span aria-hidden="true"> ↗</span>
+            </a>
+            <a class="button button-quiet" href="tel:+33656804559">
+              <span data-i18n="call">Appeler</span><span aria-hidden="true"> ↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-collage" aria-label="Photographies de la galerie et des œuvres">
+          <div class="image-frame hero-art hero-art-main">
+            <img src="gallery-images/image_22.jpg" alt="Peinture contemporaine en cours de création" loading="eager">
+          </div>
+          <div class="image-frame hero-art hero-art-small">
+            <img src="gallery-images/image_2.jpg" alt="Vue de la galerie depuis l’entrée" loading="lazy">
+          </div>
+          <div class="image-frame hero-art hero-art-tall">
+            <img src="gallery-images/image_24.jpg" alt="Façade de la galerie sur rue" loading="lazy">
+          </div>
+          <span class="collage-note">Montmorillon · France</span>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#galerie" aria-label="Défiler vers la galerie">↓</a>
+    </section>
+
+    <!-- Marquee Banner -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Peinture <b>✳</b> Dessin <b>✳</b> Expositions <b>✳</b> Rencontres <b>✳</b></span>
+        <span>Peinture <b>✳</b> Dessin <b>✳</b> Expositions <b>✳</b> Rencontres <b>✳</b></span>
+        <span>Peinture <b>✳</b> Dessin <b>✳</b> Expositions <b>✳</b> Rencontres <b>✳</b></span>
+        <span>Peinture <b>✳</b> Dessin <b>✳</b> Expositions <b>✳</b> Rencontres <b>✳</b></span>
+      </div>
+    </div>
+
+    <!-- 01 : La Galerie -->
+    <section class="section intro-section" id="galerie">
+      <div class="section-container container">
+        <div class="intro-layout">
+          <h2 data-i18n="introTitle">Un lieu pour regarder. Et rencontrer.</h2>
+          <div class="intro-copy">
+            <p data-i18n="introOne">Galerie et atelier d’artiste, le Dealer d’art présente le travail de Jicé et invite
+              des artistes dont les expositions se renouvellent régulièrement.</p>
+            <p data-i18n="introTwo">Ici, Jicé vous accueille personnellement, vous guide parmi les œuvres et partage le
+              plaisir de la découverte. Les œuvres exposées sont proposées à la vente.</p>
+          </div>
+        </div>
+        <div class="photo-strip">
+          <div class="image-frame strip-one">
+            <img src="gallery-images/image_6.jpg" alt="Vitrine de la galerie" loading="lazy">
+          </div>
+          <div class="image-frame strip-two">
+            <img src="gallery-images/image_10.jpg" alt="Vue intérieure de l’espace galerie" loading="lazy">
+          </div>
+          <div class="image-frame strip-three">
+            <img src="gallery-images/image_16.jpg" alt="Entrée de la galerie" loading="lazy">
+          </div>
+          <span class="vertical-note">Un regard singulier · une porte ouverte</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 : L'Artiste -->
+    <section class="section artist-section" id="artiste">
+      <div class="section-container container">
+        <div class="artist-layout">
+          <figure class="artist-image">
+            <div class="image-frame artist-photo">
+              <img src="gallery-images/image_20.jpg" alt="Œuvre et espace de travail" loading="lazy">
+            </div>
+            <figcaption data-i18n="artistCaption">Œuvre et atelier — photographie fournie</figcaption>
+          </figure>
+          <div class="artist-copy">
+            <h2 data-i18n="artistTitle">Jicé, peintre aux multiples voix.</h2>
+            <p data-i18n="artistCopy">Peintre local, passionné et engagé, Jicé explore une grande diversité de médiums
+              et
+              aborde chaque demande avec soin.</p>
+            <span class="artist-signature">Jicé</span>
+          </div>
+          <span class="vertical-note artist-side-note" data-i18n="artistSideNote">Artiste · accueillant ·
+            passionné</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 : Expositions -->
+    <section class="section exhibitions-section" id="expositions">
+      <div class="section-container container">
+        <div class="section-heading-row">
+          <h2 data-i18n="exhibitTitle">Les murs changent. La curiosité reste.</h2>
+          <span class="section-stamp">MONTMORILLON<br>86500</span>
+        </div>
+        <div class="exhibit-layout">
+          <div class="image-frame exhibit-image">
+            <img src="gallery-images/image_12.jpg" alt="Œuvres présentées en vitrine" loading="lazy">
+          </div>
+          <div class="exhibit-card">
+            <span class="card-kicker" data-i18n="exhibitCurrent">Exposition en cours</span>
+            <h3 data-i18n="exhibitTodo">Informations sur l’exposition à compléter</h3>
+            <span class="card-rule"></span>
+            <div class="exhibit-lists">
+              <p>
+                <span data-i18n="exhibitsFuture">À venir</span>
+                <strong data-i18n="exhibitsFutureVal">Dates à venir</strong>
+              </p>
+              <p>
+                <span data-i18n="exhibitsPast">Passées</span>
+                <strong data-i18n="exhibitsPastVal">Expositions précédentes</strong>
+              </p>
+            </div>
+            <p class="fine-print" data-i18n="exhibitNote">Le programme évolue régulièrement. Informations à compléter.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 : Œuvres -->
+    <section class="section works-section" id="oeuvres">
+      <div class="section-container container">
+        <div class="section-heading-row works-heading">
+          <h2 data-i18n="worksTitle">Des œuvres à rencontrer, peut-être à emporter.</h2>
+        </div>
+
+        <div class="works-toolbar">
+          <div class="work-filters" role="group" aria-label="Filtrer par médium">
+            <button class="filter-active" type="button" data-category="Tout">Tout</button>
+            <button type="button" data-category="Peinture">Peinture</button>
+            <button type="button" data-category="Dessin">Dessin</button>
+            <button type="button" data-category="Autres médiums">Autres médiums</button>
+          </div>
+        </div>
+
+        <div class="works-grid">
+          <!-- Work 1 -->
+          <button class="work-card work-card-1" type="button" data-index="0"
+            aria-label="Voir : Œuvre exposée à la galerie">
+            <div class="image-frame work-image">
+              <img src="gallery-images/image_4.jpg" alt="Œuvre exposée à la galerie" loading="lazy">
+            </div>
+            <div class="work-caption">
+              <span class="caption-number">Œuvre · 01</span>
+              <span class="caption-medium">Peinture</span>
+            </div>
+            <span class="work-hover-label" aria-hidden="true">Voir ↗</span>
+          </button>
+
+          <!-- Work 2 -->
+          <button class="work-card work-card-2" type="button" data-index="1"
+            aria-label="Voir : Dessin présenté dans la galerie">
+            <div class="image-frame work-image">
+              <img src="gallery-images/image_16.jpg" alt="Dessin présenté dans la galerie" loading="lazy">
+            </div>
+            <div class="work-caption">
+              <span class="caption-number">Œuvre · 02</span>
+              <span class="caption-medium">Dessin</span>
+            </div>
+            <span class="work-hover-label" aria-hidden="true">Voir ↗</span>
+          </button>
+
+          <!-- Work 3 -->
+          <button class="work-card work-card-3" type="button" data-index="2"
+            aria-label="Voir : Peinture exposée à la galerie">
+            <div class="image-frame work-image">
+              <img src="gallery-images/image_18.jpg" alt="Peinture exposée à la galerie" loading="lazy">
+            </div>
+            <div class="work-caption">
+              <span class="caption-number">Œuvre · 03</span>
+              <span class="caption-medium">Peinture</span>
+            </div>
+            <span class="work-hover-label" aria-hidden="true">Voir ↗</span>
+          </button>
+
+          <!-- Work 4 -->
+          <button class="work-card work-card-4" type="button" data-index="3"
+            aria-label="Voir : Œuvre et espace de travail">
+            <div class="image-frame work-image">
+              <img src="gallery-images/image_20.jpg" alt="Œuvre et espace de travail" loading="lazy">
+            </div>
+            <div class="work-caption">
+              <span class="caption-number">Œuvre · 04</span>
+              <span class="caption-medium">Autres médiums</span>
+            </div>
+            <span class="work-hover-label" aria-hidden="true">Voir ↗</span>
+          </button>
+
+          <!-- Work 5 -->
+          <button class="work-card work-card-5" type="button" data-index="4"
+            aria-label="Voir : Peinture contemporaine en cours de création">
+            <div class="image-frame work-image">
+              <img src="gallery-images/image_22.jpg" alt="Peinture contemporaine en cours de création" loading="lazy">
+            </div>
+            <div class="work-caption">
+              <span class="caption-number">Œuvre · 05</span>
+              <span class="caption-medium">Peinture</span>
+            </div>
+            <span class="work-hover-label" aria-hidden="true">Voir ↗</span>
+          </button>
+
+          <!-- Work 6 -->
+          <button class="work-card work-card-6" type="button" data-index="5"
+            aria-label="Voir : Dessin au crayon d’un visage">
+            <div class="image-frame work-image">
+              <img src="gallery-images/image_24.jpg" alt="Dessin au crayon d’un visage" loading="lazy">
+            </div>
+            <div class="work-caption">
+              <span class="caption-number">Œuvre · 06</span>
+              <span class="caption-medium">Dessin</span>
+            </div>
+            <span class="work-hover-label" aria-hidden="true">Voir ↗</span>
+          </button>
+        </div>
+
+        <a class="text-link" href="#visite">
+          <span data-i18n="contactArtwork">Une œuvre vous intéresse ? Écrivez-nous.</span><span aria-hidden="true">
+            ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 05 : Avis -->
+    <section class="section reviews-section" id="avis">
+      <div class="section-container container">
+        <div class="reviews-intro">
+          <div>
+            <h2 data-i18n="reviewsTitle">Leurs mots, après la visite.</h2>
+            <a class="button button-outline" href="#avis">
+              <span data-i18n="leaveReview">Laisser un avis</span><span aria-hidden="true"> ↗</span>
+            </a>
+          </div>
+          <div class="rating-summary">
+            <strong>4,8</strong>
+            <span class="stars">★★★★★</span>
+            <small>8 <span data-i18n="googleReviewsCount">avis Google</span></small>
+          </div>
+        </div>
+
+        <div class="review-grid">
+          <article class="review-card review-card-1">
+            <span class="review-mark" aria-hidden="true">“</span>
+            <p>Un lieu à voir absolument à Montmorillon ! Les artistes varient régulièrement, vous serez accueillis par
+              Jicé, un peintre local qui vous présentera les oeuvres exposées. Et bien sûr, vous pourrez faire
+              l'acquisition de l'une des oeuvres si vous avez un coup de coeur !</p>
+            <footer>
+              <strong>Angie</strong>
+              <span>Mars 2023 · <span data-i18n="googleReview">Avis Google</span></span>
+            </footer>
+          </article>
+
+          <article class="review-card review-card-2">
+            <span class="review-mark" aria-hidden="true">“</span>
+            <p>Galerie très intéressante avec des expositions fréquemment renouvelées tenue par un artiste très sympa et
+              passionné.</p>
+            <footer>
+              <strong>Caroline P.</strong>
+              <span>Juin 2023 · <span data-i18n="googleReview">Avis Google</span></span>
+            </footer>
+          </article>
+
+          <article class="review-card review-card-3">
+            <span class="review-mark" aria-hidden="true">“</span>
+            <p>Jicé est un artiste très travailleur et dévoué, avec une œuvre éclectique qui explore de nombreux
+              médiums.
+            </p>
+            <footer>
+              <strong>Jo B.</strong>
+              <span>Janvier 2021 · <span data-i18n="googleReview">Avis Google</span></span>
+            </footer>
+          </article>
+        </div>
+
+        <p class="review-note" data-i18n="reviewsNote">Le lien vers les avis Google sera ajouté.</p>
+      </div>
+    </section>
+
+    <!-- 06 : Visite & Contact -->
+    <section class="section visit-section" id="visite">
+      <div class="section-container container">
+        <h2 data-i18n="visitTitle">Poussez la porte.</h2>
+
+        <div class="visit-layout">
+          <div class="visit-details">
+            <h3 data-i18n="hours">Horaires d’ouverture</h3>
+            <p class="open-status status-open" id="live-open-status">
+              <span aria-hidden="true"></span>
+              <span>Ouvert</span><span> · Aujourd’hui</span>
+            </p>
+
+            <table class="hours-table">
+              <tbody>
+                <!-- Generated dynamically by script.js with Paris realtime highlights -->
+              </tbody>
+            </table>
+
+            <address>10 Grand Rue, 86500 Montmorillon, France</address>
+            <p class="plus-code">
+              <span data-i18n="plusCode">Plus Code</span>
+              CVG9+GQ Montmorillon
+            </p>
+
+            <a class="button button-primary direction-button"
+              href="https://www.google.com/maps/place/Galerie+Dealer+d'art/@46.4262832,0.8694401,17z/data=!4m15!1m8!3m7!1s0x47fc3b32044b46d9:0x7f6b0250a28c279e!2sGalerie+Dealer+d'art!8m2!3d46.4262832!4d0.8694401!10e1!16s%2Fg%2F11k6szlqbx!3m5!1s0x47fc3b32044b46d9:0x7f6b0250a28c279e!8m2!3d46.4262832!4d0.8694401!16s%2Fg%2F11k6szlqbx?authuser=0&hl=fr&entry=ttu"
+              target="_blank" rel="noreferrer">
+              <span data-i18n="directions">Itinéraire</span><span aria-hidden="true"> ↗</span>
+            </a>
+            <a class="phone-link" href="tel:+33656804559">+33 6 56 80 45 59</a>
+          </div>
+
+          <div class="visit-map">
+            <iframe title="Carte du quartier de la galerie"
+              src="https://maps.google.com/maps?q=Galerie%20Dealer%20d'art,%2046.4262832,0.8694401&amp;z=17&amp;output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <span class="map-stamp">46°25′34.6″N<br>0°52′09.9″E</span>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-layout" id="contact">
+          <div>
+            <h3 data-i18n="contactTitle">Écrire à la galerie</h3>
+            <p data-i18n="contactHint">Pour une œuvre, une visite ou toute autre question.</p>
+            <span class="contact-scribble" aria-hidden="true">✳</span>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <label for="contact-name">
+              <span>Votre nom</span>
+              <input id="contact-name" name="name" required maxlength="100" autocomplete="name">
+            </label>
+            <label for="contact-email">
+              <span>Votre e-mail</span>
+              <input id="contact-email" name="email" type="email" required maxlength="254" autocomplete="email">
+            </label>
+            <label for="contact-message">
+              <span>Votre message</span>
+              <textarea id="contact-message" name="message" required minlength="10" maxlength="3000"
+                rows="4"></textarea>
+            </label>
+            <button class="button button-primary" id="contact-submit-btn" type="submit">
+              <span data-i18n="send">Envoyer le message</span><span aria-hidden="true"> ↗</span>
+            </button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <!-- Giant Artistic Watermark Background -->
+    <div class="footer-watermark" aria-hidden="true">DEALER D’ART</div>
+
+    <div class="footer-container container">
+      <div class="footer-grid">
+        <!-- Col 1: Identity & Curator Bio -->
+        <div class="footer-col footer-col-brand">
+          <a class="brand footer-brand" href="#accueil" aria-label="Galerie Dealer d'art">
+            <span class="brand-mark">
+              <span class="brand-monogram">D.</span>
+              <span class="brand-ring" aria-hidden="true"></span>
+            </span>
+            <div class="brand-titles">
+              <span class="brand-name">Galerie Dealer d’art</span>
+              <span class="brand-sub" data-i18n="atelierSubtitle">Atelier Jicé · Montmorillon</span>
+            </div>
+          </a>
+          <p class="footer-curator-bio" data-i18n="footerCurator">
+            Galerie d’art contemporain & atelier de création par Jicé. Un espace d'expression libre, de rencontres et
+            d'émotions artistiques à Montmorillon, Cité de l'Écrit.
+          </p>
+          <div class="footer-rating-badge">
+            <span class="stars">★★★★★</span>
+            <strong>4,8 / 5</strong>
+            <small>· 8 <span data-i18n="googleReviewsCount">avis Google</span></small>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div class="footer-col footer-col-nav">
+          <h4 class="footer-heading" data-i18n="footerColExploration">Exploration</h4>
+          <nav class="footer-nav-list" aria-label="Liens de pied de page">
+            <a href="#accueil"><span data-i18n="navHome">Accueil</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+            <a href="#artiste"><span data-i18n="navArtist">L’artiste</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+            <a href="#expositions"><span data-i18n="navExhibitions">Expositions</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+            <a href="#oeuvres"><span data-i18n="navGallery">Galerie</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+            <a href="#visite"><span data-i18n="navVisit">Visite</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+            <a href="#contact"><span data-i18n="navContact">Contact</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+          </nav>
+        </div>
+
+        <!-- Col 3: Coordinates & Hours -->
+        <div class="footer-col footer-col-contact">
+          <h4 class="footer-heading" data-i18n="footerColVisit">Coordonnées & Horaires</h4>
+          <address class="footer-address">
+            <span>10 Grand Rue</span>
+            <span>86500 Montmorillon, France</span>
+          </address>
+          <div class="footer-contact-links">
+            <a class="footer-phone" href="tel:+33656804559">
+              <span class="phone-glyph" aria-hidden="true">📞</span>
+              <span>+33 6 56 80 45 59</span>
+            </a>
+            <a class="footer-itinerary"
+              href="https://www.google.com/maps/place/Galerie+Dealer+d'art/@46.4262832,0.8694401,17z/data=!4m15!1m8!3m7!1s0x47fc3b32044b46d9:0x7f6b0250a28c279e!2sGalerie+Dealer+d'art!8m2!3d46.4262832!4d0.8694401!10e1!16s%2Fg%2F11k6szlqbx!3m5!1s0x47fc3b32044b46d9:0x7f6b0250a28c279e!8m2!3d46.4262832!4d0.8694401!16s%2Fg%2F11k6szlqbx?authuser=0&hl=fr&entry=ttu"
+              target="_blank" rel="noreferrer">
+              <span data-i18n="directions">Itinéraire</span> <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <span class="footer-plus-code">Plus Code: CVG9+GQ</span>
+        </div>
+
+        <!-- Col 4: Values & Welcome -->
+        <div class="footer-col footer-col-values">
+          <h4 class="footer-heading" data-i18n="footerColValues">Un lieu pour tous</h4>
+          <div class="footer-inclusive-badge">
+            <span class="inclusive-icon" aria-hidden="true">🏳️‍🌈</span>
+            <div>
+              <strong data-i18n="footerInclusiveTitle">Espace ouvert & bienveillant</strong>
+              <small data-i18n="footerNote">Un espace accueillant, LGBTQ+ friendly.</small>
+            </div>
+          </div>
+          <p class="footer-visit-note" data-i18n="footerVisitNote">
+            Visites libres pendant les horaires d’ouverture ou sur rendez-vous privé avec Jicé.
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-meta">
+          <span>© 2026 Galerie Dealer d’art</span>
+          <span class="sep-dot">·</span>
+          <span data-i18n="footerRights">Tous droits réservés</span>
+          <span class="sep-dot">·</span>
+          <span class="footer-city-label" data-i18n="citeDeLecrit">Montmorillon · Cité de l’Écrit</span>
+        </div>
+        <div class="footer-artisan-stamp" aria-hidden="true">✳</div>
+        <a class="back-to-top" href="#accueil" aria-label="Retourner en haut de page">
+          <span data-i18n="backToTop">Haut de page</span>
+          <span class="arrow-up" aria-hidden="true">↑</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Détail de l’œuvre">
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Fermer">×</button>
+    <button class="lightbox-arrow lightbox-prev" id="lightbox-prev" type="button"
+      aria-label="Œuvre précédente">←</button>
+    <div class="lightbox-content">
+      <div class="lightbox-image">
+        <img id="lightbox-img" src="gallery-images/image_4.jpg" alt="Détail de l’œuvre">
+      </div>
+      <p id="lightbox-caption">Œuvre exposée à la galerie · Peinture</p>
+      <a class="button button-primary" id="lightbox-inquire-btn" href="#visite">Une œuvre vous intéresse ?
+        Écrivez-nous.</a>
+    </div>
+    <button class="lightbox-arrow lightbox-next" id="lightbox-next" type="button" aria-label="Œuvre suivante">→</button>
+  </div>
+
+  <!-- Theme Palette Selector Widget -->
+  <label class="theme-switcher">
+    <span>Palette</span>
+    <select id="theme-select" aria-label="Aperçu de la palette">
+      <option value="terracotta">terracotta</option>
+      <option value="midnight">midnight</option>
+      <option value="sage">sage</option>
+      <option value="mono">mono</option>
+    </select>
+  </label>
+
+  <!-- Optional Lenis Smooth Scroll Library via CDN -->
+  <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+
+  <!-- Color Themes Configuration -->
+  <script src="color.js"></script>
+
+  <!-- Application Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
