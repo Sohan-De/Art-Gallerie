@@ -390,7 +390,11 @@
     document.querySelectorAll("[data-i18n]").forEach((el) => {
       const key = el.getAttribute("data-i18n");
       if (t[key]) {
-        el.textContent = t[key];
+        if (t[key].includes("<")) {
+          el.innerHTML = t[key];
+        } else {
+          el.textContent = t[key];
+        }
       }
     });
 
