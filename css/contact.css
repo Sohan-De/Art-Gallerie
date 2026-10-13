@@ -786,43 +786,52 @@
    -------------------------------------------------------------------------- */
 @media (max-width: 950px) {
   .contact-page-main {
-    padding-top: 88px;
+    padding-top: 80px;
   }
   .contact-hero {
-    padding: 24px 5vw 36px;
+    padding: 12px 5vw 28px;
+  }
+  .contact-hero-inner {
+    gap: 14px;
   }
   .contact-section-grid {
-    padding: 24px 5vw 80px;
+    padding: 20px 5vw 72px;
   }
   .collector-faq-section {
-    padding: 56px 5vw 80px;
+    padding: 48px 5vw 72px;
   }
   .contact-grid-container {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 36px;
   }
   .atelier-form-col {
-    padding: 36px 28px;
+    padding: 32px 24px;
   }
 }
 
 @media (max-width: 650px) {
   .contact-page-main {
-    padding-top: 74px;
+    padding-top: 68px;
   }
   .contact-hero {
-    padding: 16px 20px 24px;
+    padding: 6px 20px 18px;
+  }
+  .contact-hero-inner {
+    gap: 10px;
+  }
+  .contact-hero-sub {
+    margin-top: 10px;
   }
   .contact-section-grid {
-    padding: 18px 20px 64px;
+    padding: 14px 20px 56px;
   }
   .collector-faq-section {
-    padding: 48px 20px 64px;
+    padding: 40px 20px 56px;
   }
   .contact-hero-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 16px;
   }
   .form-row-2col {
     grid-template-columns: 1fr;
