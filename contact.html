@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Atelier — Galerie Dealer d'art</title>
+  <meta name="description"
+    content="Contactez l'atelier de l'artiste peintre Jicé et la Galerie Dealer d'art à Montmorillon. Acquisitions, visites privées, commandes sur-mesure et informations pratiques.">
+  <link rel="canonical" href="./contact.html">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Contact & Atelier — Galerie Dealer d'art">
+  <meta property="og:description"
+    content="Échangez directement avec Jicé pour une acquisition d'œuvre, une visite privée de l'atelier ou une commande artistique.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Cormorant Garamond & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Core Global Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Dedicated Contact Page Stylesheet (in separate css/ folder) -->
+  <link rel="stylesheet" href="css/contact.css">
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ArtGallery",
+    "name": "Galerie Dealer d'art",
+    "telephone": "+33 6 56 80 45 59",
+    "email": "contact@dealerdart.fr",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "10 Grand Rue",
+      "postalCode": "86500",
+      "addressLocality": "Montmorillon",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.4262832,
+      "longitude": 0.8694401
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contact-main">Aller au contenu</a>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html#accueil" aria-label="Galerie Dealer d'art">
+        <span class="brand-mark">
+          <span class="brand-monogram">D.</span>
+          <span class="brand-ring" aria-hidden="true"></span>
+        </span>
+        <div class="brand-titles">
+          <span class="brand-name">Galerie Dealer d’art</span>
+          <span class="brand-sub" data-i18n="atelierSubtitle">Atelier Jicé · Montmorillon</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="index.html#accueil" data-i18n="navHome">Accueil</a>
+        <a href="index.html#artiste" data-i18n="navArtist">L’artiste</a>
+        <a href="index.html#expositions" data-i18n="navExhibitions">Expositions</a>
+        <a href="index.html#oeuvres" data-i18n="navGallery">Galerie</a>
+        <a href="index.html#visite" data-i18n="navVisit">Visite</a>
+        <a href="contact.html" class="active" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="header-tools">
+        <a class="header-status-pill" href="#location" aria-label="Localisation de l'atelier">
+          <span class="status-dot-pulse" aria-hidden="true"></span>
+          <span class="status-pill-text" data-i18n="headerAtelierCity">Montmorillon · Atelier</span>
+        </a>
+        <div class="tool-controls">
+          <button class="icon-button" id="theme-toggle" type="button" aria-label="Activer le thème sombre">☾</button>
+          <button class="language-switch" id="language-switch" type="button" aria-label="Passer en anglais">EN</button>
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav"
+            data-i18n="menu">Menu</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Dropdown -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navigation mobile">
+      <div class="mobile-nav-inner">
+        <div class="mobile-nav-links">
+          <a href="index.html#accueil"><span data-i18n="navHome">Accueil</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+          <a href="index.html#artiste"><span data-i18n="navArtist">L’artiste</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+          <a href="index.html#expositions"><span data-i18n="navExhibitions">Expositions</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+          <a href="index.html#oeuvres"><span data-i18n="navGallery">Galerie</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+          <a href="index.html#visite"><span data-i18n="navVisit">Visite</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+          <a href="contact.html" class="active"><span data-i18n="navContact">Contact</span> <span class="nav-arrow"
+              aria-hidden="true">↗</span></a>
+        </div>
+        <div class="mobile-nav-meta">
+          <p>10 Grand Rue, 86500 Montmorillon</p>
+          <a href="tel:+33656804559">+33 6 56 80 45 59</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="contact-page-main" id="contact-main">
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+      <div class="container contact-hero-inner">
+        <nav class="contact-breadcrumb" aria-label="Fil d'ariane">
+          <a href="index.html" data-i18n="crumbHome">Accueil</a>
+          <span class="crumb-sep" aria-hidden="true">/</span>
+          <span data-i18n="crumbContact">Contact & Atelier</span>
+        </nav>
+
+        <div class="contact-hero-header">
+          <div class="contact-hero-titles">
+            <span class="contact-hero-kicker" data-i18n="heroKicker">05 — Atelier & Rencontres</span>
+            <h1 class="contact-hero-title" data-i18n="heroTitle">
+              Échangeons autour d'une <em>toile</em> ou d'un projet.
+            </h1>
+            <p class="contact-hero-sub" data-i18n="heroSub">
+              Que vous souhaitiez acquérir une œuvre, planifier une visite privée avec Jicé ou échanger sur une commande personnalisée, nous vous répondons avec soin sous 24 à 48h.
+            </p>
+          </div>
+
+          <div class="contact-hero-status-badge" id="hero-status-badge">
+            <span class="status-dot" aria-hidden="true"></span>
+            <div class="status-badge-text">
+              <span class="status-badge-title" id="hero-status-title" data-i18n="statusOpen">Atelier Ouvert</span>
+              <span class="status-badge-desc" id="hero-status-desc" data-i18n="statusSubOpen">Visite libre ou sur rendez-vous</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Dual-Column Section (Left: Painter Info & Channels | Right: Inquiry Form) -->
+    <section class="contact-section-grid">
+      <div class="container contact-grid-container">
+
+        <!-- Left Column: Artist Card & Direct Channels -->
+        <aside class="atelier-info-col">
+
+          <!-- Painter Personal Card -->
+          <div class="artist-card-box">
+            <div class="artist-card-header">
+              <div class="artist-avatar-wrap">
+                <img src="gallery-images/image_20.jpg" alt="Artiste peintre Jicé dans son atelier" loading="lazy">
+              </div>
+              <div class="artist-card-meta">
+                <h3 data-i18n="artistCardName">Jicé</h3>
+                <p data-i18n="artistCardRole">Artiste peintre & Galeriste</p>
+              </div>
+            </div>
+            <blockquote class="artist-card-quote" data-i18n="artistCardQuote">
+              « Chaque toile naît d’une émotion, mais elle prend tout son sens lorsqu’elle rencontre le regard de celui ou celle qui la contemple. Venez partager ce moment à l'atelier. »
+            </blockquote>
+          </div>
+
+          <!-- Direct Channels Cards -->
+          <div class="contact-channels-list">
+            <a class="channel-card" href="tel:+33656804559" aria-label="Appeler la galerie">
+              <div class="channel-icon" aria-hidden="true">📞</div>
+              <div class="channel-details">
+                <span class="channel-label" data-i18n="channelPhoneLabel">Téléphone direct</span>
+                <span class="channel-val" data-i18n="channelPhoneVal">+33 6 56 80 45 59</span>
+              </div>
+              <span class="channel-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="channel-card" href="mailto:contact@dealerdart.fr" aria-label="Envoyer un e-mail">
+              <div class="channel-icon" aria-hidden="true">✉️</div>
+              <div class="channel-details">
+                <span class="channel-label" data-i18n="channelEmailLabel">E-mail atelier</span>
+                <span class="channel-val" data-i18n="channelEmailVal">contact@dealerdart.fr</span>
+              </div>
+              <span class="channel-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="channel-card" href="#location" aria-label="Voir l'adresse">
+              <div class="channel-icon" aria-hidden="true">📍</div>
+              <div class="channel-details">
+                <span class="channel-label" data-i18n="channelAddressLabel">Adresse & Galerie</span>
+                <span class="channel-val" data-i18n="channelAddressVal">10 Grand Rue, 86500 Montmorillon</span>
+              </div>
+              <span class="channel-arrow" aria-hidden="true">↓</span>
+            </a>
+          </div>
+
+          <!-- Studio Hours Mini-Card -->
+          <div class="studio-hours-card">
+            <h4>
+              <span data-i18n="hoursTitle">Horaires de la galerie</span>
+              <span class="hours-status-pill" id="hours-status-pill">Ouvert</span>
+            </h4>
+            <div class="hours-table">
+              <div class="hours-row" data-day-index="1">
+                <span class="hours-day">Lundi</span>
+                <span class="hours-time">Fermé</span>
+              </div>
+              <div class="hours-row" data-day-index="2">
+                <span class="hours-day">Mardi</span>
+                <span class="hours-time">14:00 – 18:00</span>
+              </div>
+              <div class="hours-row" data-day-index="3">
+                <span class="hours-day">Mercredi</span>
+                <span class="hours-time">10:00 – 18:00</span>
+              </div>
+              <div class="hours-row" data-day-index="4">
+                <span class="hours-day">Jeudi</span>
+                <span class="hours-time">14:00 – 18:00</span>
+              </div>
+              <div class="hours-row" data-day-index="5">
+                <span class="hours-day">Vendredi</span>
+                <span class="hours-time">14:00 – 18:00</span>
+              </div>
+              <div class="hours-row" data-day-index="6">
+                <span class="hours-day">Samedi</span>
+                <span class="hours-time">10:00 – 12:00 · 14:00 – 18:00</span>
+              </div>
+              <div class="hours-row" data-day-index="0">
+                <span class="hours-day">Dimanche</span>
+                <span class="hours-time">10:00 – 12:00 · 14:00 – 18:00</span>
+              </div>
+            </div>
+            <p class="hours-footnote" data-i18n="hoursFootnote">
+              Visites libres aux horaires d'ouverture ou accueil privé sur rendez-vous avec Jicé.
+            </p>
+          </div>
+
+        </aside>
+
+        <!-- Right Column: Bespoke Atelier Form -->
+        <section class="atelier-form-col" aria-labelledby="form-heading">
+          <div class="atelier-form-header">
+            <span class="atelier-form-kicker" data-i18n="formKicker">Formulaire d'échange</span>
+            <h2 id="form-heading" data-i18n="formTitle">Envoyer un message à l'atelier</h2>
+            <p data-i18n="formSub">Remplissez ce formulaire et Jicé vous contactera directement.</p>
+          </div>
+
+          <form id="contact-inquiry-form" novalidate>
+            <!-- Hidden Subject Input -->
+            <input type="hidden" id="inquiry-subject" name="subject" value="Acquérir une œuvre">
+
+            <!-- Purpose / Subject Chips -->
+            <div class="form-topic-selector">
+              <label class="topic-selector-label" data-i18n="topicLabel">Quel est le sujet de votre message ?</label>
+              <div class="topic-chips-group" role="radiogroup" aria-label="Sujet de la demande">
+                <button type="button" class="topic-chip is-active" data-topic="Acquérir une œuvre" data-i18n="topic1">
+                  🎨 Acquérir une œuvre
+                </button>
+                <button type="button" class="topic-chip" data-topic="Visite privée de l'atelier" data-i18n="topic2">
+                  🗓️ Visite privée de l'atelier
+                </button>
+                <button type="button" class="topic-chip" data-topic="Commande sur-mesure" data-i18n="topic3">
+                  ✍️ Commande sur-mesure
+                </button>
+                <button type="button" class="topic-chip" data-topic="Presse & Partenariat" data-i18n="topic4">
+                  🤝 Presse & Partenariat
+                </button>
+                <button type="button" class="topic-chip" data-topic="Autre question" data-i18n="topic5">
+                  💬 Autre question
+                </button>
+              </div>
+            </div>
+
+            <!-- Form Body Fields -->
+            <div class="inquiry-form-body">
+              <div class="form-row-2col">
+                <div class="form-field-group">
+                  <label for="inquiry-name"><span data-i18n="labelName">Votre nom complet</span><span class="req-star">*</span></label>
+                  <input type="text" id="inquiry-name" name="name" required maxlength="100" autocomplete="name" placeholder="ex. Claire Laurent">
+                </div>
+
+                <div class="form-field-group">
+                  <label for="inquiry-email"><span data-i18n="labelEmail">Votre adresse e-mail</span><span class="req-star">*</span></label>
+                  <input type="email" id="inquiry-email" name="email" required maxlength="254" autocomplete="email" placeholder="ex. claire@exemple.com">
+                </div>
+              </div>
+
+              <div class="form-row-2col">
+                <div class="form-field-group">
+                  <label for="inquiry-phone"><span data-i18n="labelPhone">Téléphone (optionnel)</span></label>
+                  <input type="tel" id="inquiry-phone" name="phone" maxlength="30" autocomplete="tel" placeholder="ex. +33 6 12 34 56 78">
+                </div>
+
+                <div class="form-field-group" id="field-artwork-group">
+                  <label for="inquiry-artwork"><span data-i18n="labelArtwork">Œuvre d’intérêt (optionnel)</span></label>
+                  <input type="text" id="inquiry-artwork" name="artwork" maxlength="120" placeholder="ex. Œuvre · 01 (Peinture contemporaine)">
+                </div>
+              </div>
+
+              <div class="form-field-group">
+                <label for="inquiry-message"><span data-i18n="labelMessage">Votre message ou projet</span><span class="req-star">*</span></label>
+                <textarea id="inquiry-message" name="message" required minlength="10" maxlength="3000" rows="5" placeholder="Parlez-nous de vos envies, de votre projet ou de vos disponibilités de visite..."></textarea>
+              </div>
+
+              <div class="form-privacy-row">
+                <input type="checkbox" id="inquiry-privacy" required checked>
+                <label for="inquiry-privacy" data-i18n="privacyNotice">
+                  J'accepte que mes données soient utilisées uniquement pour répondre à ma demande.
+                </label>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="form-submit-btn" id="inquiry-submit-btn">
+                  <span class="btn-label" data-i18n="submitBtnText">Envoyer le message</span>
+                  <span aria-hidden="true">↗</span>
+                </button>
+              </div>
+
+              <div class="form-status-alert" id="inquiry-form-status" role="alert" aria-live="polite"></div>
+            </div>
+          </form>
+        </section>
+
+      </div>
+    </section>
+
+    <!-- Studio Location & Access Section -->
+    <section class="studio-location-section" id="location">
+      <div class="container">
+        <div class="location-section-header">
+          <span class="contact-hero-kicker">06 — Accès & Itinéraire</span>
+          <h2 data-i18n="locationTitle">Venir à Montmorillon</h2>
+        </div>
+
+        <div class="location-layout-grid">
+          <div class="access-guide-list">
+            <div class="access-guide-item">
+              <div class="access-guide-icon" aria-hidden="true">🚆</div>
+              <div class="access-guide-content">
+                <h4 data-i18n="accessTrainTitle">En train</h4>
+                <p data-i18n="accessTrainDesc">Gare de Montmorillon (ligne Poitiers–Limoges) à 10 minutes à pied de la galerie.</p>
+              </div>
+            </div>
+
+            <div class="access-guide-item">
+              <div class="access-guide-icon" aria-hidden="true">🚗</div>
+              <div class="access-guide-content">
+                <h4 data-i18n="accessCarTitle">En voiture</h4>
+                <p data-i18n="accessCarDesc">Parkings gratuits à proximité immédiate (Place Saint-Divitien et bords de Gartempe).</p>
+              </div>
+            </div>
+
+            <div class="access-guide-item">
+              <div class="access-guide-icon" aria-hidden="true">🏛️</div>
+              <div class="access-guide-content">
+                <h4 data-i18n="accessWalkTitle">Au cœur historique</h4>
+                <p data-i18n="accessWalkDesc">Situé dans la Grand Rue piétonne de la charmante Cité de l'Écrit et des Métiers du Livre.</p>
+              </div>
+            </div>
+
+            <div>
+              <a class="button button-primary"
+                href="https://www.google.com/maps/place/Galerie+Dealer+d'art/@46.4262832,0.8694401,17z/data=!4m15!1m8!3m7!1s0x47fc3b32044b46d9:0x7f6b0250a28c279e!2sGalerie+Dealer+d'art!8m2!3d46.4262832!4d0.8694401!10e1!16s%2Fg%2F11k6szlqbx!3m5!1s0x47fc3b32044b46d9:0x7f6b0250a28c279e!8m2!3d46.4262832!4d0.8694401!16s%2Fg%2F11k6szlqbx?authuser=0&hl=fr&entry=ttu"
+                target="_blank" rel="noreferrer" style="display:inline-flex; align-items:center; gap:8px;">
+                <span data-i18n="directions">Itinéraire Google Maps</span> <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="location-map-wrap">
+            <iframe title="Carte de situation de la Galerie Dealer d'art"
+              src="https://maps.google.com/maps?q=Galerie%20Dealer%20d'art,%2046.4262832,0.8694401&amp;z=17&amp;output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <span class="location-map-stamp">46°25′34.6″N · 0°52′09.9″E</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collector FAQ Section -->
+    <section class="collector-faq-section" id="faq">
+      <div class="container">
+        <div class="faq-header">
+          <span class="contact-hero-kicker" data-i18n="faqKicker">Foire aux questions</span>
+          <h2 data-i18n="faqTitle">Questions des amateurs d'art</h2>
+          <p data-i18n="faqSub">Tout ce qu'il faut savoir sur les acquisitions, visites et expéditions d'œuvres.</p>
+        </div>
+
+        <div class="faq-accordion-list">
+          <div class="faq-item is-open">
+            <button type="button" class="faq-question-btn" aria-expanded="true">
+              <span data-i18n="faqQ1">Comment se déroule l'acquisition d'un tableau ?</span>
+              <span class="faq-icon-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer-pane">
+              <p data-i18n="faqA1">
+                Chaque acquisition s'accompagne d'une facture officielle et d'un certificat d'authenticité original signé par Jicé. Un paiement échelonné ou réservation peut être convenu sur simple demande.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span data-i18n="faqQ2">Peut-on faire expédier une toile en France ou à l'étranger ?</span>
+              <span class="faq-icon-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer-pane">
+              <p data-i18n="faqA2">
+                Oui, absolument. Les toiles sont emballées avec des matériaux de protection pour œuvres d'art (mousse technique, caisse rigide selon format) et expédiées avec assurance transport spécialisée.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span data-i18n="faqQ3">Faut-il obligatoirement réserver pour venir à la galerie ?</span>
+              <span class="faq-icon-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer-pane">
+              <p data-i18n="faqA3">
+                Non, les portes sont ouvertes à tous pendant les heures d'ouverture indiquées. Si vous souhaitez toutefois un moment privilégié et tranquille d'échange avec l'artiste, un rendez-vous est recommandé.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false">
+              <span data-i18n="faqQ4">Jicé réalise-t-il des commandes sur-mesure ?</span>
+              <span class="faq-icon-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer-pane">
+              <p data-i18n="faqA4">
+                Tout à fait ! Jicé échange volontiers avec vous sur les formats, la gamme chromatique et l'esprit souhaité pour composer une toile unique adaptée à votre intérieur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <!-- Giant Artistic Watermark Background -->
+    <div class="footer-watermark" aria-hidden="true">DEALER D’ART</div>
+
+    <div class="footer-container container">
+      <div class="footer-grid">
+        <!-- Col 1: Identity & Curator Bio -->
+        <div class="footer-col footer-col-brand">
+          <a class="brand footer-brand" href="index.html#accueil" aria-label="Galerie Dealer d'art">
+            <span class="brand-mark">
+              <span class="brand-monogram">D.</span>
+              <span class="brand-ring" aria-hidden="true"></span>
+            </span>
+            <div class="brand-titles">
+              <span class="brand-name">Galerie Dealer d’art</span>
+              <span class="brand-sub" data-i18n="atelierSubtitle">Atelier Jicé · Montmorillon</span>
+            </div>
+          </a>
+          <p class="footer-curator-bio" data-i18n="footerCurator">
+            Galerie d’art contemporain & atelier de création par Jicé. Un espace d'expression libre, de rencontres et
+            d'émotions artistiques à Montmorillon, Cité de l'Écrit.
+          </p>
+          <div class="footer-rating-badge">
+            <span class="stars">★★★★★</span>
+            <strong>4,8 / 5</strong>
+            <small>· 8 <span>avis Google</span></small>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div class="footer-col footer-col-nav">
+          <h4 class="footer-heading" data-i18n="footerColExploration">Exploration</h4>
+          <nav class="footer-nav-list" aria-label="Liens de pied de page">
+            <a href="index.html#accueil"><span data-i18n="navHome">Accueil</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+            <a href="index.html#artiste"><span data-i18n="navArtist">L’artiste</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+            <a href="index.html#expositions"><span data-i18n="navExhibitions">Expositions</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+            <a href="index.html#oeuvres"><span data-i18n="navGallery">Galerie</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+            <a href="index.html#visite"><span data-i18n="navVisit">Visite</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+            <a href="contact.html"><span data-i18n="navContact">Contact</span><span class="footer-link-arrow"
+                aria-hidden="true">↗</span></a>
+          </nav>
+        </div>
+
+        <!-- Col 3: Coordinates & Hours -->
+        <div class="footer-col footer-col-contact">
+          <h4 class="footer-heading" data-i18n="footerColVisit">Coordonnées & Horaires</h4>
+          <address class="footer-address">
+            <span>10 Grand Rue</span>
+            <span>86500 Montmorillon, France</span>
+          </address>
+          <div class="footer-contact-links">
+            <a class="footer-phone" href="tel:+33656804559">
+              <span class="phone-glyph" aria-hidden="true">📞</span>
+              <span>+33 6 56 80 45 59</span>
+            </a>
+            <a class="footer-itinerary"
+              href="https://www.google.com/maps/place/Galerie+Dealer+d'art/@46.4262832,0.8694401,17z/data=!4m15!1m8!3m7!1s0x47fc3b32044b46d9:0x7f6b0250a28c279e!2sGalerie+Dealer+d'art!8m2!3d46.4262832!4d0.8694401!10e1!16s%2Fg%2F11k6szlqbx!3m5!1s0x47fc3b32044b46d9:0x7f6b0250a28c279e!8m2!3d46.4262832!4d0.8694401!16s%2Fg%2F11k6szlqbx?authuser=0&hl=fr&entry=ttu"
+              target="_blank" rel="noreferrer">
+              <span data-i18n="directions">Itinéraire</span> <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <span class="footer-plus-code">Plus Code: CVG9+GQ</span>
+        </div>
+
+        <!-- Col 4: Values & Welcome -->
+        <div class="footer-col footer-col-values">
+          <h4 class="footer-heading" data-i18n="footerColValues">Un lieu pour tous</h4>
+          <div class="footer-inclusive-badge">
+            <span class="inclusive-icon" aria-hidden="true">🏳️‍🌈</span>
+            <div>
+              <strong data-i18n="footerInclusiveTitle">Espace ouvert & bienveillant</strong>
+              <small data-i18n="footerNote">Un espace accueillant, LGBTQ+ friendly.</small>
+            </div>
+          </div>
+          <p class="footer-visit-note" data-i18n="footerVisitNote">
+            Visites libres pendant les horaires d’ouverture ou sur rendez-vous privé avec Jicé.
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-meta">
+          <span>© 2026 Galerie Dealer d’art</span>
+          <span class="sep-dot">·</span>
+          <span data-i18n="footerRights">Tous droits réservés</span>
+          <span class="sep-dot">·</span>
+          <span class="footer-city-label" data-i18n="citeDeLecrit">Montmorillon · Cité de l’Écrit</span>
+        </div>
+        <div class="footer-artisan-stamp" aria-hidden="true">✳</div>
+        <a class="back-to-top" href="#contact-main" aria-label="Retourner en haut de page">
+          <span data-i18n="backToTop">Haut de page</span>
+          <span class="arrow-up" aria-hidden="true">↑</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Theme Palette Selector Widget -->
+  <label class="theme-switcher">
+    <span>Palette</span>
+    <select id="theme-select" aria-label="Aperçu de la palette">
+      <option value="terracotta">terracotta</option>
+      <option value="midnight">midnight</option>
+      <option value="sage">sage</option>
+      <option value="mono">mono</option>
+    </select>
+  </label>
+
+  <!-- Color Themes Configuration -->
+  <script src="color.js"></script>
+
+  <!-- Contact Page Engine -->
+  <script src="contact.js"></script>
+</body>
+
+</html>
