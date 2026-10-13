@@ -109,6 +109,68 @@
       footerRights: "Tous droits réservés",
       citeDeLecrit: "Montmorillon · Cité de l’Écrit",
       backToTop: "Haut de page",
+      contactSiteTitle: "Contact & Atelier — Galerie Dealer d'art",
+      crumbHome: "Accueil",
+      crumbContact: "Contact & Atelier",
+      heroKicker: "05 — Atelier & Rencontres",
+      heroTitle: "Échangeons autour d'une <em>toile</em> ou d'un projet.",
+      heroSub: "Que vous souhaitiez acquérir une œuvre, planifier une visite privée avec Jicé ou échanger sur une commande personnalisée, nous vous répondons avec soin sous 24 à 48h.",
+      statusOpen: "Atelier Ouvert",
+      statusClosed: "Fermé pour le moment",
+      statusSubOpen: "Visite libre ou sur rendez-vous",
+      statusSubClosed: "Rendez-vous privés disponibles",
+      artistCardName: "Jicé",
+      artistCardRole: "Artiste peintre & Galeriste",
+      artistCardQuote: "« Chaque toile naît d’une émotion, mais elle prend tout son sens lorsqu’elle rencontre le regard de celui ou celle qui la contemple. Venez partager ce moment à l'atelier. »",
+      channelPhoneLabel: "Téléphone direct",
+      channelPhoneVal: "+33 6 56 80 45 59",
+      channelEmailLabel: "E-mail atelier",
+      channelEmailVal: "contact@dealerdart.fr",
+      channelAddressLabel: "Adresse & Galerie",
+      channelAddressVal: "10 Grand Rue, 86500 Montmorillon",
+      hoursTitle: "Horaires de la galerie",
+      hoursClosedText: "Fermé",
+      hoursFootnote: "Visites libres aux horaires d'ouverture ou accueil privé sur rendez-vous avec Jicé.",
+      formKicker: "Formulaire d'échange",
+      formTitle: "Envoyer un message à l'atelier",
+      formSub: "Remplissez ce formulaire et Jicé vous contactera directement.",
+      topicLabel: "Quel est le sujet de votre message ?",
+      topic1: "🎨 Acquérir une œuvre",
+      topic2: "🗓️ Visite privée de l'atelier",
+      topic3: "✍️ Commande sur-mesure",
+      topic4: "🤝 Presse & Partenariat",
+      topic5: "💬 Autre question",
+      labelName: "Votre nom complet",
+      labelEmail: "Votre adresse e-mail",
+      labelPhone: "Téléphone (optionnel)",
+      labelArtwork: "Œuvre d’intérêt (optionnel)",
+      labelMessage: "Votre message ou projet",
+      placeholderName: "ex. Claire Laurent",
+      placeholderEmail: "ex. claire@exemple.com",
+      placeholderPhone: "ex. +33 6 12 34 56 78",
+      placeholderArtwork: "ex. Œuvre · 01 (Peinture contemporaine)",
+      placeholderMessage: "Parlez-nous de vos envies, de votre projet ou de vos disponibilités de visite...",
+      privacyNotice: "J'accepte que mes données soient utilisées uniquement pour répondre à ma demande.",
+      submitBtnText: "Envoyer le message",
+      sendingText: "Envoi en cours…",
+      locationTitle: "Venir à Montmorillon",
+      accessTrainTitle: "En train",
+      accessTrainDesc: "Gare de Montmorillon (ligne Poitiers–Limoges) à 10 minutes à pied de la galerie.",
+      accessCarTitle: "En voiture",
+      accessCarDesc: "Parkings gratuits à proximité immédiate (Place Saint-Divitien et bords de Gartempe).",
+      accessWalkTitle: "Au cœur historique",
+      accessWalkDesc: "Situé dans la Grand Rue piétonne de la charmante Cité de l'Écrit et des Métiers du Livre.",
+      faqKicker: "Foire aux questions",
+      faqTitle: "Questions des amateurs d'art",
+      faqSub: "Tout ce qu'il faut savoir sur les acquisitions, visites et expéditions d'œuvres.",
+      faqQ1: "Comment se déroule l'acquisition d'un tableau ?",
+      faqA1: "Chaque acquisition s'accompagne d'une facture officielle et d'un certificat d'authenticité original signé par Jicé. Un paiement échelonné ou réservation peut être convenu sur simple demande.",
+      faqQ2: "Peut-on faire expédier une toile en France ou à l'étranger ?",
+      faqA2: "Oui, absolument. Les toiles sont emballées avec des matériaux de protection pour œuvres d'art (mousse technique, caisse rigide selon format) et expédiées avec assurance transport spécialisée.",
+      faqQ3: "Faut-il obligatoirement réserver pour venir à la galerie ?",
+      faqA3: "Non, les portes sont ouvertes à tous pendant les heures d'ouverture indiquées. Si vous souhaitez toutefois un moment privilégié et tranquille d'échange avec l'artiste, un rendez-vous est recommandé.",
+      faqQ4: "Jicé réalise-t-il des commandes sur-mesure ?",
+      faqA4: "Tout à fait ! Jicé échange volontiers avec vous sur les formats, la gamme chromatique et l'esprit souhaité pour composer une toile unique adaptée à votre intérieur.",
     },
     en: {
       siteTitle: "Galerie Dealer d'art — Art lives here.",
@@ -190,6 +252,68 @@
       footerRights: "All rights reserved",
       citeDeLecrit: "Montmorillon · City of Writing",
       backToTop: "Back to top",
+      contactSiteTitle: "Contact & Studio — Galerie Dealer d'art",
+      crumbHome: "Home",
+      crumbContact: "Contact & Studio",
+      heroKicker: "05 — Studio & Encounters",
+      heroTitle: "Let's talk about a <em>painting</em> or a project.",
+      heroSub: "Whether you wish to acquire an artwork, schedule a private studio viewing with Jicé, or discuss a bespoke commission, we will get back to you with care within 24 to 48 hours.",
+      statusOpen: "Studio Open Now",
+      statusClosed: "Currently Closed",
+      statusSubOpen: "Walk-in visits or by appointment",
+      statusSubClosed: "Private viewings available on request",
+      artistCardName: "Jicé",
+      artistCardRole: "Painter & Gallery Founder",
+      artistCardQuote: "“Every painting begins with an emotion, but finds its true meaning when it connects with the eyes of the person beholding it. Come share that moment at the studio.”",
+      channelPhoneLabel: "Direct telephone",
+      channelPhoneVal: "+33 6 56 80 45 59",
+      channelEmailLabel: "Studio email",
+      channelEmailVal: "contact@dealerdart.fr",
+      channelAddressLabel: "Address & Gallery",
+      channelAddressVal: "10 Grand Rue, 86500 Montmorillon",
+      hoursTitle: "Gallery opening hours",
+      hoursClosedText: "Closed",
+      hoursFootnote: "Walk-in visits during opening hours or private reception by appointment with Jicé.",
+      formKicker: "Studio Inquiry",
+      formTitle: "Send a message to the studio",
+      formSub: "Fill out this form and Jicé will reply to you directly.",
+      topicLabel: "What is your inquiry about?",
+      topic1: "🎨 Acquire an artwork",
+      topic2: "🗓️ Private studio visit",
+      topic3: "✍️ Bespoke commission",
+      topic4: "🤝 Press & Partnership",
+      topic5: "💬 Other question",
+      labelName: "Your full name",
+      labelEmail: "Your email address",
+      labelPhone: "Phone number (optional)",
+      labelArtwork: "Artwork of interest (optional)",
+      labelMessage: "Your message or project",
+      placeholderName: "e.g. Claire Laurent",
+      placeholderEmail: "e.g. claire@example.com",
+      placeholderPhone: "e.g. +33 6 12 34 56 78",
+      placeholderArtwork: "e.g. Artwork · 01 (Contemporary painting)",
+      placeholderMessage: "Tell us about your interests, project ideas, or preferred visit dates...",
+      privacyNotice: "I agree that my information will only be used to respond to this request.",
+      submitBtnText: "Send message",
+      sendingText: "Sending…",
+      locationTitle: "Visiting Montmorillon",
+      accessTrainTitle: "By train",
+      accessTrainDesc: "Montmorillon railway station (Poitiers–Limoges line) 10 minutes walking from the gallery.",
+      accessCarTitle: "By car",
+      accessCarDesc: "Free public parking nearby at Place Saint-Divitien and along the Gartempe riverbanks.",
+      accessWalkTitle: "Historic precinct",
+      accessWalkDesc: "Nestled in the pedestrian Grand Rue of the picturesque City of Writing and Bookcraft.",
+      faqKicker: "Frequently Asked Questions",
+      faqTitle: "Questions from art collectors",
+      faqSub: "Everything you need to know about purchasing, visiting, and international shipping.",
+      faqQ1: "How does the purchase of a painting work?",
+      faqA1: "Every acquisition is accompanied by an official invoice and an original Certificate of Authenticity signed by Jicé. Flexible installment plans or reservations can be arranged upon request.",
+      faqQ2: "Can artworks be safely shipped within France or worldwide?",
+      faqA2: "Yes, absolutely. Artworks are packaged using high-grade archival museum protection (technical foam, custom wood crates for larger canvases) and dispatched with tracked specialized art transit insurance.",
+      faqQ3: "Do I have to book in advance to visit the gallery?",
+      faqA3: "No, doors are open to everyone during regular opening hours. However, if you would like dedicated one-on-one time with Jicé to explore particular pieces, an appointment is recommended.",
+      faqQ4: "Does Jicé accept bespoke painting commissions?",
+      faqA4: "Certainly! Jicé enjoys discussing custom dimensions, color palettes, and emotional tones to craft a one-of-a-kind original work tailored to your space.",
     },
   };
 
@@ -252,7 +376,8 @@
     const t = copy[locale];
 
     // Document Title
-    document.title = t.siteTitle;
+    const isContactPage = document.getElementById("contact-main") !== null;
+    document.title = isContactPage ? (t.contactSiteTitle || t.siteTitle) : t.siteTitle;
 
     // Language Toggle Button Text
     const langSwitch = document.getElementById("language-switch");
@@ -269,13 +394,25 @@
       }
     });
 
-    // Form inputs placeholders / labels
+    // Form inputs placeholders / labels on index.html
     const nameLabel = document.querySelector('label[for="contact-name"] span');
     if (nameLabel) nameLabel.textContent = t.name;
     const emailLabel = document.querySelector('label[for="contact-email"] span');
     if (emailLabel) emailLabel.textContent = t.email;
     const messageLabel = document.querySelector('label[for="contact-message"] span');
     if (messageLabel) messageLabel.textContent = t.message;
+
+    // Form inputs placeholders on contact.html
+    const inqName = document.getElementById("inquiry-name");
+    if (inqName) inqName.placeholder = t.placeholderName;
+    const inqEmail = document.getElementById("inquiry-email");
+    if (inqEmail) inqEmail.placeholder = t.placeholderEmail;
+    const inqPhone = document.getElementById("inquiry-phone");
+    if (inqPhone) inqPhone.placeholder = t.placeholderPhone;
+    const inqArtwork = document.getElementById("inquiry-artwork");
+    if (inqArtwork) inqArtwork.placeholder = t.placeholderArtwork;
+    const inqMessage = document.getElementById("inquiry-message");
+    if (inqMessage) inqMessage.placeholder = t.placeholderMessage;
 
     // Mobile Menu Button
     const menuBtn = document.getElementById("menu-toggle");
@@ -354,7 +491,36 @@
       `;
     }
 
-    // Build or update hours table
+    // contact.html status elements
+    const heroStatusBadge = document.getElementById("hero-status-badge");
+    const heroStatusTitle = document.getElementById("hero-status-title");
+    const heroStatusDesc = document.getElementById("hero-status-desc");
+    const hoursStatusPill = document.getElementById("hours-status-pill");
+
+    if (heroStatusTitle && heroStatusDesc) {
+      heroStatusTitle.textContent = open ? t.statusOpen : t.statusClosed;
+      heroStatusDesc.textContent = open ? t.statusSubOpen : t.statusSubClosed;
+      if (heroStatusBadge) {
+        heroStatusBadge.classList.toggle("is-closed", !open);
+      }
+    }
+
+    if (hoursStatusPill) {
+      hoursStatusPill.textContent = open ? t.statusOpen : t.hoursClosedText;
+      hoursStatusPill.classList.toggle("is-closed", !open);
+    }
+
+    // contact.html hours table rows
+    document.querySelectorAll(".hours-row").forEach((row) => {
+      const idx = parseInt(row.getAttribute("data-day-index"), 10);
+      if (idx === day) {
+        row.classList.add("is-today");
+      } else {
+        row.classList.remove("is-today");
+      }
+    });
+
+    // Build or update hours table for index.html
     const tableBody = document.querySelector(".hours-table tbody");
     if (tableBody) {
       tableBody.innerHTML = "";
@@ -538,6 +704,97 @@
     });
   }
 
+  // --- CONTACT PAGE FORM & INTERACTIVE CHIPS ---
+  function initContactInquiryForm() {
+    const form = document.getElementById("contact-inquiry-form");
+    const alertBox = document.getElementById("inquiry-form-status");
+    const submitBtn = document.getElementById("inquiry-submit-btn");
+
+    if (!form) return;
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const t = copy[currentLocale];
+
+      const name = document.getElementById("inquiry-name")?.value.trim() || "";
+      const email = document.getElementById("inquiry-email")?.value.trim() || "";
+      const message = document.getElementById("inquiry-message")?.value.trim() || "";
+
+      const emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+      if (!name || !emailValid || message.length < 10) {
+        if (alertBox) {
+          alertBox.className = "form-status-alert is-error";
+          alertBox.textContent = t.formError;
+          alertBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
+        return;
+      }
+
+      // Simulated sending state
+      const btnText = submitBtn?.querySelector(".btn-label");
+      if (submitBtn) submitBtn.disabled = true;
+      if (btnText) btnText.textContent = t.sendingText || "Envoi en cours…";
+      if (alertBox) {
+        alertBox.className = "form-status-alert";
+        alertBox.textContent = "";
+      }
+
+      setTimeout(() => {
+        if (submitBtn) submitBtn.disabled = false;
+        if (btnText) btnText.textContent = t.submitBtnText;
+        if (alertBox) {
+          alertBox.className = "form-status-alert is-success";
+          alertBox.textContent = t.formSuccess;
+        }
+        form.reset();
+
+        const chips = document.querySelectorAll(".topic-chip");
+        if (chips.length > 0) {
+          chips.forEach((c) => c.classList.remove("is-active"));
+          chips[0].classList.add("is-active");
+        }
+      }, 700);
+    });
+  }
+
+  function initTopicChips() {
+    const chips = document.querySelectorAll(".topic-chip");
+    const subjectField = document.getElementById("inquiry-subject");
+
+    chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        chips.forEach((c) => c.classList.remove("is-active"));
+        chip.classList.add("is-active");
+        if (subjectField) {
+          subjectField.value = chip.getAttribute("data-topic");
+        }
+      });
+    });
+  }
+
+  function initFaqAccordion() {
+    const items = document.querySelectorAll(".faq-item");
+    items.forEach((item) => {
+      const btn = item.querySelector(".faq-question-btn");
+      if (btn) {
+        btn.addEventListener("click", () => {
+          const isOpen = item.classList.contains("is-open");
+          items.forEach((other) => {
+            other.classList.remove("is-open");
+            const otherBtn = other.querySelector(".faq-question-btn");
+            if (otherBtn) otherBtn.setAttribute("aria-expanded", "false");
+          });
+
+          if (!isOpen) {
+            item.classList.add("is-open");
+            btn.setAttribute("aria-expanded", "true");
+          }
+        });
+      }
+    });
+  }
+
   // --- EVENT LISTENERS & SETUP ---
   document.addEventListener("DOMContentLoaded", () => {
     // 1. Initial Theme & Language
@@ -620,8 +877,11 @@
       });
     });
 
-    // 7. Contact Form
+    // 7. Contact Forms & Interactive Elements
     initContactForm();
+    initContactInquiryForm();
+    initTopicChips();
+    initFaqAccordion();
 
     // 8. Mobile Navigation
     initNavigation();
